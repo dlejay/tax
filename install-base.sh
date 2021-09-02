@@ -14,5 +14,4 @@ rm -r ../install-tl-*
 rm install-tl.log install-tl bin/*/man
 
 cd bin/*
-
 ./tlmgr install latex-bin
