@@ -17,7 +17,7 @@ It can thus be installed on guest sessions of computers you do not own.
 Open a terminal and run
 
 ```
-https://raw.githubusercontent.com/dlejay/tax/trunk/install-macos.sh | sh
+curl -sL https://raw.githubusercontent.com/dlejay/tax/trunk/install-macos.sh | sh
 ```
 
 This will install TaX in `~/Library/TaX`.
