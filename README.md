@@ -11,3 +11,25 @@ should compile without problems on the arXiv servers.
 
 2. TaX never assumes you can type a password.
 It can thus be installed on guest sessions of computers you do not own.
+
+## Installation
+### Step 1: install TaX
+Open a terminal and run
+
+```
+https://raw.githubusercontent.com/dlejay/tax/trunk/install-macos.sh | sh
+```
+
+This will install TaX in `~/Library/TaX`.
+
+### Step 2: update your `$PATH`
+
+If you are using a brand new macOS,
+this can be done with:
+
+```
+echo '
+# Add the Tiny arXiv TeX binaries to the PATH
+export PATH=$PATH:$HOME/Library/TaX/bin/x86_64-darwin' >> $HOME/.zprofile
+source $HOME/.zprofile
+```
