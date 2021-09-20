@@ -16,7 +16,7 @@ It can thus be installed on guest sessions of computers you do not own.
 
 ## How can I get TaX?
 ### Step 1: install TaX
-Open a terminal and run
+Open a (Rosetta) Terminal and run
 
 ```
 curl -sL https://raw.githubusercontent.com/dlejay/tax/trunk/install-macos.sh | sh
