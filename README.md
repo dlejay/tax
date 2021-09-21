@@ -25,14 +25,14 @@ curl -sL https://raw.githubusercontent.com/dlejay/tax/trunk/install-macos.sh | s
 This will install TaX in `~/Library/TaX`.
 
 ### Step 2: update your `$PATH`
-If you are using a brand new macOS,
+If you are using `zsh` as your default shell,
 this can be done with:
 
 ```                                 
 echo '                              
 # Add the Tiny arXiv TeX binaries to the PATH
-export PATH=$PATH:$HOME/Library/TaX/bin/x86_64-darwin' >> $HOME/.zprofile
-source $HOME/.zprofile              
+export PATH=$PATH:$HOME/Library/TaX/bin/x86_64-darwin' >> ${ZDOTDIR:-$HOME}/.zprofile
+source ${ZDOTDIR:-$HOME}/.zprofile              
 ```                                 
                                     
 ## What if there is not enough in TaX?
