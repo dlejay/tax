@@ -22,7 +22,7 @@ Open a (Rosetta) Terminal and run
 curl -sL https://raw.githubusercontent.com/dlejay/tax/trunk/install-macos.sh | sh
 ```
 
-This will install TaX in `~/Library/TaX`.
+This will install TaX in `~/Library/Application Support/TaX`.
 
 ### Step 2: update your `$PATH`
 If you are using `zsh` as your default shell,
@@ -56,6 +56,6 @@ package as in the example:
 ## What if I don't want TaX anymore?
 Simply remove the TaX folder
 ```
-rm -rf ~/Library/TaX
+rm -rf ~/Library/"Application Support"/TaX
 ```
 and clean your `PATH`.
