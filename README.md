@@ -31,7 +31,7 @@ this can be done with:
 ```                                 
 echo '                              
 # Add the Tiny arXiv TeX binaries to the PATH
-export PATH=$PATH:$HOME/Library/TaX/bin/x86_64-darwin' >> ${ZDOTDIR:-$HOME}/.zprofile
+export PATH=$PATH:$HOME/Library/"Application Support"/TaX/bin/x86_64-darwin' >> ${ZDOTDIR:-$HOME}/.zprofile
 source ${ZDOTDIR:-$HOME}/.zprofile              
 ```                                 
                                     
