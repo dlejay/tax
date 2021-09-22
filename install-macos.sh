@@ -14,3 +14,7 @@ curl -sLO https://raw.githubusercontent.com/dlejay/tax/trunk/packages.txt
 rm packages.txt
 rm -rf $HOME/Library/TaX
 mv ../../../TaX $HOME/Library
+
+# Install TaX in the PATH
+rm -f /etc/paths.d/TaX
+echo "~/Library/TaX" >> /etc/paths.d/TaX
